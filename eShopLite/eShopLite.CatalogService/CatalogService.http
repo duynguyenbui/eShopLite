@@ -1,0 +1,6 @@
+@MyBackend_HostAddress = http://localhost:5241
+
+GET {{MyBackend_HostAddress}}/api/v1/catalog/items/type/all/brand/2
+Accept: application/json
+
+###
